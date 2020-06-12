@@ -2,8 +2,6 @@
 |Column|Type|Options|
 |------|----|-------|
 |user_name|string|null: false|
-|email|string|null: false|
-|password|string|null: false|
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
 |message_id|integer|null: false, foreign_key: true|
